@@ -1,0 +1,44 @@
+.container {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.table {
+  width: 100%;
+  margin: 48px 0 24px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.table th {
+  background-color: #f4f4f4;
+}
+
+.footer {
+  height: 48px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer button {
+  height: 30px;
+}
+
+.inputField {
+  height: 24px;
+  width: 42px;
+}
+
+.statusMessage{
+  text-align: center;
+  margin-top:48px;
+}
